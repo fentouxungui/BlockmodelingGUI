@@ -53,7 +53,7 @@ env:
   APP_MODE: "package-fn"
   APP_SUBDIR: "."
   PKG_SUBDIR: "."
-  ENTRY_FN: "local({ source("inst/apps/BlockmodelingGUI.R") })"
+  ENTRY_FN: "local({ source('inst/apps/BlockmodelingGUI.R') })"
   UI_LIBS: ""
   SERVER_LIBS: ""
   DEMO_RDA: ""
